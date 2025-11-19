@@ -7,10 +7,10 @@ steps:
   - title: What you will make
   - title: Stepper motor working
   - title: Add switch and pressed
-  - title: add LEDs
+  - title: Add LEDs
   - title: Make chooser
-  - title: Add dial and dial text
-  - title: Flashy lights
+  - title: Make dial and dial text
+  - title: Attach everythng to box
   - title: Challange 1 - random angle choice
   - title: Challenge 2 - make lights flash and stepper at same time
     completion:
