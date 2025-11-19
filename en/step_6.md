@@ -1,4 +1,4 @@
-## Add switch and pressed
+## Add dial and dial text
 
 --- task ---
 

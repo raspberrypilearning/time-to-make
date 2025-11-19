@@ -1,14 +1,21 @@
-title: Project title in sentence case
+title: Time to make
 hero_image: images/banner.png
-description: A short description of the project
+description: Make a word chooser with a Pico
 listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Step title
+  - title: Stepper motor working
+  - title: Add switch and pressed
+  - title: add LEDs
+  - title: Make chooser
+  - title: Add dial and dial text
+  - title: Flashy lights
+  - title: Challange 1 - random angle choice
+  - title: Challenge 2 - make lights flash and stepper at same time
     completion:
       - engaged      
-  - title: Challenge
+  - title: More challenges
     challenge: true
     completion:
       - external

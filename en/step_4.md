@@ -1,4 +1,4 @@
-## Add switch and pressed
+## add LEDs
 
 --- task ---
 
