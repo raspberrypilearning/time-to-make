@@ -19,6 +19,8 @@ For the **circuit**
 - button
 - LEDs
 
+![Pico in a breadbaord, stepper motor, button, two resistors, and two LEDs](images/all-parts.png)
+
 For the **device**
 - carboard box or card to make a box
 - card to make dials
