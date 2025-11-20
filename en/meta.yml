@@ -11,8 +11,7 @@ steps:
   - title: Make chooser
   - title: Make dial and dial text
   - title: Attach everythng to box
-  - title: Challange 1 - random angle choice
-  - title: Challenge 2 - make lights flash and stepper at same time
+  - title: Challange - random angle choice
     completion:
       - engaged      
   - title: More challenges
