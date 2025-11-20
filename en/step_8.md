@@ -1,4 +1,4 @@
-## Challange 1 - random angle choice
+## Challange - random angle choice
 
 --- task ---
 add libraries

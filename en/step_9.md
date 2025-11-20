@@ -1,36 +1,12 @@
-## Challenge 2 - make lights flash and stepper at same time
-
+## More challenges
 --- task ---
-add libarary
-CODE
+make the lights do something differnt when the stepper motor stops - like a little cohorography
 --- /task ---
 
 --- task ---
-add stop variable (or waht is it?)
-CODE
+make the dial do a little "dance" before choosing
 --- /task ---
 
 --- task ---
-add global stop in move it / light it / go
-CODE
+coud you add a way of changing the words based on time - so it will move eveyrh now and again if not pressed - hint use XX from the time library
 --- /task ---
-
---- task ---
-add _thread to light it
-CODE
---- /task ---
-
---- task ---
-add keybaord intruto
-CODE
---- /task ---
-
---- task ---
-add finally stop
-CODE
---- /task ---
-
---- task ---
-Test
---- /task ---
-
