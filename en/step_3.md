@@ -2,8 +2,8 @@
 
 --- task ---
 add button to breadboard
-![Push button in a breadbaord](images/button-full.png)
-![Close up of push button in a breadbaord](images/button-close.png)
+![Push button in a breadbaord](images/button-full.png){:width="500px"}
+![Close up of push button in a breadbaord](images/button-close.png){:width="500px"}
 --- /task ---
 
 --- task ---

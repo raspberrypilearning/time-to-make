@@ -2,8 +2,8 @@
 
 --- task ---
 add leds
-![LEDs in a breadbaord](images/led-full.png)
-![Close up of LEDs in a breadbaord](images/led-close.png)
+![LEDs in a breadbaord](images/led-full.png){:width="500px"}
+![Close up of LEDs in a breadbaord](images/led-close.png){:width="500px"}
 --- /task ---
 
 --- task ---

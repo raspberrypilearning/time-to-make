@@ -19,7 +19,7 @@ For the circuit
 - button
 - LEDs
 
-![Pico in a breadbaord, stepper motor, button, two resistors, and two LEDs](images/all-parts.png){:width="450px"}
+![Pico in a breadbaord, stepper motor, button, two resistors, and two LEDs](images/all-parts.png){:width="500px"}
 
 For the device
 - carboard box or card to make a box
