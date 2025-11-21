@@ -2,18 +2,26 @@
 
 --- task ---
 pico on breadboard
-![Pico in a breadbaord](images/IMAGE.png)
+![Pico in a breadbaord](images/pico.png)
 --- /task ---
 
 --- task ---
 stepper into the driver
-![Diagram of stepper motor and driver board, showing how it is plugged in, also listed above](images/IMAGE.png)
+![Diagram of stepper motor and driver board, showing how it is plugged in, also listed above](images/driver.png)
 --- /task ---
 
 --- task ---
-plug driver into pico
-![Driver pins in the breadbaord showing which pins to use in Pico, also listed above](images/IMAGE.png)
+plug + - driver into pico
+![Driver pins in the breadbaord showing which power pins to use in Pico, also listed above](images/power-full.png)
+![Close up of driver pins in the breadbaord showing which power pins to use in Pico, also listed above](images/power-close.png)
 --- /task ---
+
+--- task ---
+plug other pins of driver into pico
+![Driver pins in the breadbaord showing which pins to use in Pico, also listed above](images/driver-full.png)
+![Close up of driver pins in the breadbaord showing which pins to use in Pico, also listed above](images/driver-close.png)
+--- /task ---
+
 
 --- task ---
 get thonny working 

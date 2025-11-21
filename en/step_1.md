@@ -10,7 +10,7 @@ Creative chooser. Could be used for lots of uter things such as XXX or as a time
 </html>
 
 ### You will need:
-For the **circuit**
+For the circuit
 - stepper moter
 - stepper driver
 - Pico (or raspberry pi????)
@@ -21,7 +21,7 @@ For the **circuit**
 
 ![Pico in a breadbaord, stepper motor, button, two resistors, and two LEDs](images/all-parts.png){:width="450px"}
 
-For the **device**
+For the device
 - carboard box or card to make a box
 - card to make dials
 - glue and or tape

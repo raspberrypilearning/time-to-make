@@ -1,8 +1,9 @@
-## Add switch and pressed
+## Add button and pressed
 
 --- task ---
 add button to breadboard
-![Push button in a breadbaord](images/IMAGE.png)
+![Push button in a breadbaord](images/button-full.png)
+![Close up of push button in a breadbaord](images/button-close.png)
 --- /task ---
 
 --- task ---

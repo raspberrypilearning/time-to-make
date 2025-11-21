@@ -1,8 +1,9 @@
 ## Add LEDs
 
 --- task ---
-add two leds
-![LEDs in a breadbaord](images/IMAGE.png)
+add leds
+![LEDs in a breadbaord](images/led-full.png)
+![Close up of LEDs in a breadbaord](images/led-close.png)
 --- /task ---
 
 --- task ---
