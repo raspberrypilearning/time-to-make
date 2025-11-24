@@ -1,21 +1,56 @@
-## Make chooser
+## Add LEDs
 
 --- task ---
-use a small box - shoe box is a good size or any box
-or make a cardbaord structure with trianvels for support 
-![A range of boxes you could use: shoe boxes, packaging, or make you own](images/IMAGE.png)
+add leds
+![LEDs in a breadbaord](images/led-full.png){:width="500px"}
 --- /task ---
 
 --- task ---
-Mark the centre with a pen and make a hole in the box
-![Image of marked point](images/IMAGE.png)
-![Image of hole](images/IMAGE.png)
+make a flashy function
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 6-9
+---
+from picozero import Pot
+from time import sleep
+
+sensor = Pot(26)  # Soil probe input
+
+while True:  
+    reading = sensor.value  
+    print("Soil moisture:", round(reading, 2))  
+    sleep(1)
+--- /code ---
 --- /task ---
 
 --- task ---
-tape the stepper motor onto the inside
-![Image of stepper motor from the back](images/IMAGE.png)
-![Image of front of box with stepper motor shaft poking through](images/IMAGE.png)
+add to call when button pressed
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 6-9
+---
+from picozero import Pot
+from time import sleep
+
+sensor = Pot(26)  # Soil probe input
+
+while True:  
+    reading = sensor.value  
+    print("Soil moisture:", round(reading, 2))  
+    sleep(1)
+--- /code ---
+--- /task ---
+
+--- task ---
+Test
 --- /task ---
 
 

@@ -1,40 +1,36 @@
-## Attach everythng to box
+## Make dial and dial text
 
 --- task ---
-cut out two more small dials and two small holes to fit onto stepper motor shaft
-![Image of cutting out smaller dials, and how big they are in comparson to the larger dial](images/IMAGE.png)
-![Image of making small holes for the stepper motor shaft](images/IMAGE.png)
+add something about meauring so that it fitsß
+cut out dial - make sure that it will turn with the box
+![Image of cutting out](images/IMAGE.png)
+![Image of dial next to box](images/IMAGE.png)
 --- /task ---
 
-
 --- task ---
-glue toegher and small bit of glue to stepper
-![Image of gluing the smaller discs together](images/IMAGE.png)
-![Image of adding a bit of glue to the stepper shaft](images/IMAGE.png)
+make this two tasks
+cut out a window and a hole in the cetnre
+![Image of hole in the centre](images/IMAGE.png)
+![Image of starting to cut out hole using a smaller hole](images/IMAGE.png)
+![Image of finishing cutting out the hole](images/IMAGE.png)
 --- /task ---
 
-
 --- task ---
-stick the lights just under the dialnote - should fit becuause of double dial
-![Image of LEDs stuck on](images/IMAGE.png)
+draw round on the box
+measure 4 so they are more exact (than I did!)
+![Image of drawing round dial on the box](images/IMAGE.png)
+![Image of measured drawing](images/IMAGE.png)
 --- /task ---
 
-
 --- task ---
-glue dial onto the small discs
-![Image of gluing](images/IMAGE.png)
-![Image of attaching](images/IMAGE.png)
+add text, make a little bit smaller so room for a bit of error
+![Image of all 4 texts](images/IMAGE.png)
+![Close up image of 1 text](images/IMAGE.png)
 --- /task ---
 
-
 --- task ---
-carefuly move the dial (and stepper motor) so that it is over one of the words
-![Animated gif of moving the dial into the right place](images/IMAGE.png)
---- /task ---
-
-
---- task ---
-test shoudl work!
+decorate dial and box
+![Animated gif of before and after being decorated](images/IMAGE.png)
 --- /task ---
 
 

@@ -1,6 +1,8 @@
 ## What you will make
 
-Creative chooser. Could be used for lots of uter things such as XXX or as a timer. 
+Time to Make is a spinning wheel made from cardboard and a stepper motor that randomly selects one of four options each time it turns.
+
+You can make your own version to ask quiz questions, get yes or no answers, start stories, or decide things like who cooks or what to read.
 
 <html>
 <div style="position: relative; overflow: hidden; padding-top: 56.25%;">

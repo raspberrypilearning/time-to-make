@@ -1,11 +1,11 @@
 title: Time to make
 hero_image: images/banner.png
-description: Make a word chooser with a Pico
+description: A spinning wheel that reveals random prompts
 listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Stepper motor working
+  - title: Motor wiring
   - title: Add switch and pressed
   - title: Add LEDs
   - title: Make chooser
