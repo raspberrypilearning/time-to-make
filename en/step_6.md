@@ -1,12 +1,14 @@
 ## Make dial and dial text
 
 --- task ---
+add something about meauring so that it fitsß
 cut out dial - make sure that it will turn with the box
 ![Image of cutting out](images/IMAGE.png)
 ![Image of dial next to box](images/IMAGE.png)
 --- /task ---
 
 --- task ---
+make this two tasks
 cut out a window and a hole in the cetnre
 ![Image of hole in the centre](images/IMAGE.png)
 ![Image of starting to cut out hole using a smaller hole](images/IMAGE.png)
