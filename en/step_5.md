@@ -7,6 +7,7 @@ add leds
 
 --- task ---
 make a flashy function
+
 --- code ---
 ---
 language: python
@@ -25,10 +26,12 @@ while True:
     print("Soil moisture:", round(reading, 2))  
     sleep(1)
 --- /code ---
+
 --- /task ---
 
 --- task ---
 add to call when button pressed
+
 --- code ---
 ---
 language: python
@@ -47,6 +50,7 @@ while True:
     print("Soil moisture:", round(reading, 2))  
     sleep(1)
 --- /code ---
+
 --- /task ---
 
 --- task ---
