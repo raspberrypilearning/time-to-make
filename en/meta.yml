@@ -6,7 +6,7 @@ pdf: false
 steps:
   - title: What you will make
   - title: Motor wiring
-  - title: Code
+  - title: Program the motor
   - title: Add switch and pressed
   - title: Add LEDs
   - title: Make chooser
