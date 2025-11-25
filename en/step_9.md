@@ -25,6 +25,7 @@ while True:
 
 --- task ---
 add rand and choce in function
+
 --- code ---
 ---
 language: python
