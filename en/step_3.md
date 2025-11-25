@@ -21,7 +21,9 @@ line_highlights: 1-2
 from picozero import Stepper
 from time import sleep
 --- /code ---
+
 --- /task ---
+
 
 --- task ---
 get code stepper to move 90 - CODE
@@ -38,6 +40,7 @@ line_highlights: 1-2
 from picozero import Stepper
 from time import sleep
 --- /code ---
+
 --- /task ---
 
 --- task ---

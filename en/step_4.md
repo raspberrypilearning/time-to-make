@@ -7,6 +7,7 @@ add button to breadboard
 
 --- task ---
 make the stepper thing into a function
+
 --- code ---
 ---
 language: python
@@ -25,7 +26,9 @@ while True:
     print("Soil moisture:", round(reading, 2))  
     sleep(1)
 --- /code ---
+
 --- /task ---
+
 
 --- task ---
 call the function on button
@@ -48,6 +51,7 @@ while True:
     print("Soil moisture:", round(reading, 2))  
     sleep(1)
 --- /code ---
+
 --- /task ---
 
 --- task ---

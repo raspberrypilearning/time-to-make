@@ -43,10 +43,12 @@ while True:
     print("Soil moisture:", round(reading, 2))  
     sleep(1)
 --- /code ---
+
 --- /task ---
 
 --- task ---
 change the methods in the stepepr.rotate
+
 --- code ---
 ---
 language: python
@@ -65,6 +67,7 @@ while True:
     print("Soil moisture:", round(reading, 2))  
     sleep(1)
 --- /code ---
+
 --- /task ---
 
 --- task ---
