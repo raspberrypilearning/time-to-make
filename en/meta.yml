@@ -6,8 +6,8 @@ pdf: false
 steps:
   - title: What you will make
   - title: Wire the motor
-  - title: Program the motor
-  - title: Add switch and pressed
+  - title: Make it turn
+  - title: Add a button
   - title: Add LEDs
   - title: Make chooser
   - title: Make dial and dial text

@@ -1,4 +1,4 @@
-## Program the motor
+## Make it turn
 
 If you need help getting your Raspberry Pi Pico up and running, check out our [Getting Started with Pico Guide](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}
 
@@ -34,7 +34,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 3-4
+line_highlights: 4-5
 ---
 from picozero import Stepper
 from time import sleep
@@ -55,7 +55,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 5-6
+line_highlights: 7-8
 ---
 from picozero import Stepper
 from time import sleep
@@ -71,6 +71,6 @@ stepper.rotate(90, 'cw')
 
 
 --- task ---
-**Test:** Watch the motor turn when you run the code.
+**Test:** watch the motor turn when you run the code.
 --- /task ---
 
