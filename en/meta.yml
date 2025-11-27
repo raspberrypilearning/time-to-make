@@ -9,9 +9,9 @@ steps:
   - title: Make it turn
   - title: Add a button
   - title: Add an LED
-  - title: Make and decorate
-  - title: Make dial and dial text
-  - title: Attach everythng to box
+  - title: Make the box
+  - title: Decorate
+  - title: add
   - title: Challange - random angle choice
     completion:
       - engaged      

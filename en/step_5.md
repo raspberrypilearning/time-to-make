@@ -36,7 +36,6 @@ while True:
         #rotate motor
         stepper.rotate(90, 'cw')
 --- /code ---
---- /code ---
 
 --- /task ---
 
