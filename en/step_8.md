@@ -27,11 +27,6 @@ glue dial onto the small discs
 --- /task ---
 
 
---- task ---
-carefuly move the dial (and stepper motor) so that it is over one of the words
-![Animated gif of moving the dial into the right place](images/IMAGE.png)
---- /task ---
-
 
 --- task ---
 test shoudl work!

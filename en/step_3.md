@@ -7,7 +7,7 @@ Open a **new file** in your code editor.
 --- /task ---
 
 --- task ---
-Add the `time` and `picozero` libraries needed to access the Pico’s input and timing functions.
+Add the `time` and `picozero` libraries and import the Stepper and sleep functions.
 
 --- code ---
 ---
@@ -26,24 +26,52 @@ from time import sleep
 
 
 --- task ---
-get code stepper to move 90 - CODE
-
+Define t
+18 19 20 21
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 1-2
+line_highlights: 3-4
 ---
 
 from picozero import Stepper
 from time import sleep
+
+#define pins
+stepper = Stepper((18, 19, 20, 21))
 --- /code ---
 
 --- /task ---
 
+
 --- task ---
-Test
+Test the motor by get code stepper to move 90 degrees clockwise. This is shortened to `cw`.
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 5-6
+---
+
+from picozero import Stepper
+from time import sleep
+
+#define pins
+stepper = Stepper((18, 19, 20, 21))
+
+#rotate motor
+stepper.rotate(90, 'cw')
+--- /code ---
+
+--- /task ---
+
+
+--- task ---
+**Test:** Watch the motor turn when you run the code.
 --- /task ---
 

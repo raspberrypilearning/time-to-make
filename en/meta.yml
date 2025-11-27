@@ -5,7 +5,7 @@ listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Motor wiring
+  - title: Wire the motor
   - title: Program the motor
   - title: Add switch and pressed
   - title: Add LEDs

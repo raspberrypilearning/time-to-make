@@ -1,25 +1,35 @@
-## Motor wiring
+## Wire the motor
 
 --- task ---
-Insert pico into the top, centre of the breadboard
+Insert the Pico into the breadboard.
 ![Pico in a breadbaord](images/pico.png){:width="300px"}
 --- /task ---
 
 --- task ---
 Insert the stepper motor wires into the driver.
 
-**Tip:** if you don't havev this type of driver, you'll need to look up where the wires go for your specific driver.
+**Tip:** drivers vary. If your driver looks different to this, skip the rest of this step and look up where the wires go for your specific driver.
 
 ![Diagram of stepper motor and driver board, showing how it is plugged in](images/driver.png){:width="300px"}
 --- /task ---
 
---- task ---
-Power the driver by adding a red wire from the + on driver to VBUS (-1) on Pico. Add a black wire from - on driver to GND (-3) on the Pico.
 
-![Driver pins in the breadbaord showing which power pins to use in Pico, also listed above](images/power-full.png){:width="500px"}
+--- task ---
+Power the driver by adding a red wire from the + on driver to VBUS (-1) on the Pico. 
+
+Add a black wire from - on driver to GND (-3) on the Pico.
+
+![Driver pins in the breadboard showing which power pins to use in Pico, also listed above](images/power-full.png){:width="500px"}
 --- /task ---
 
+
 --- task ---
-plug other pins of driver into pico
-![Driver pins in the breadbaord showing which pins to use in Pico, also listed above](images/driver-full.png){:width="500px"}
+Plug the pins of driver into Pico
+
+Driver pin 1 to GP18 (-17)
+Driver pin 2 to GP19 (-16)
+Driver pin 3 to GP20 (-15)
+Driver pin 4 to GP21 (-14)
+
+![Driver pins in the breadboard showing which pins to use in Pico, also listed above](images/driver-full.png){:width="500px"}
 --- /task ---

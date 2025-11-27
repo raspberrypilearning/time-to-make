@@ -1,6 +1,6 @@
 ## More challenges
 --- task ---
-add a second LED in a differnt colour and blink both
+MAKE a new step for challenage 2ß- add LED (not as main project)
 --- /task ---
 
 --- task ---
