@@ -8,8 +8,8 @@ steps:
   - title: Wire the motor
   - title: Make it turn
   - title: Add a button
-  - title: Add LEDs
-  - title: Make chooser
+  - title: Add an LED
+  - title: Make and decorate
   - title: Make dial and dial text
   - title: Attach everythng to box
   - title: Challange - random angle choice
