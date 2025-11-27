@@ -11,7 +11,7 @@ steps:
   - title: Add an LED
   - title: Make the box
   - title: Decorate
-  - title: add
+  - title: Attach the dial
   - title: Challange - random angle choice
     completion:
       - engaged      
