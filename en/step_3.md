@@ -17,7 +17,6 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 1-2
 ---
-
 from picozero import Stepper
 from time import sleep
 --- /code ---
@@ -28,6 +27,7 @@ from time import sleep
 --- task ---
 Define t
 18 19 20 21
+
 --- code ---
 ---
 language: python
@@ -36,7 +36,6 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 3-4
 ---
-
 from picozero import Stepper
 from time import sleep
 
@@ -49,6 +48,7 @@ stepper = Stepper((18, 19, 20, 21))
 
 --- task ---
 Test the motor by get code stepper to move 90 degrees clockwise. This is shortened to `cw`.
+
 --- code ---
 ---
 language: python
@@ -57,7 +57,6 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 5-6
 ---
-
 from picozero import Stepper
 from time import sleep
 

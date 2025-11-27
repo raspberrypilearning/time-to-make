@@ -1,6 +1,6 @@
 ## More challenges
 --- task ---
-MAKE a new step for challenage 2ß- add LED (not as main project)
+MAKE a new step for challenage - add LED (not as main project)
 --- /task ---
 
 --- task ---

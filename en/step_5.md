@@ -9,6 +9,7 @@ add leds
 make a flashy function
 
 --- code ---
+
 ---
 language: python
 filename: main.py
@@ -26,6 +27,7 @@ while True:
     print("Soil moisture:", round(reading, 2))  
     sleep(1)
 --- /code ---
+
 --- /task ---
 
 --- task ---
@@ -49,6 +51,7 @@ while True:
     print("Soil moisture:", round(reading, 2))  
     sleep(1)
 --- /code ---
+
 --- /task ---
 
 --- task ---
