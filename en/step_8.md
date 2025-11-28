@@ -26,7 +26,7 @@ Decorate the wheel in your own style.
 Attach it to the spacer circles with tape or glue.
 
 ![Image of attaching](images/attach.gif){:width="500px"}
-![Image of decorated wheel](images/decor-2.png){:width="500px"}
+![Image of decorated wheel](images/decor-2.gif){:width="500px"}
 --- /task ---
 
 --- task ---
