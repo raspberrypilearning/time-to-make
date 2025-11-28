@@ -1,12 +1,20 @@
 ## More challenges
 --- task ---
-MAKE a new step for challenage - add LED (not as main project)
+Could you add a second LED in another colour?
+
+Try making this blink with different timing than the first LED.
+
+**Tip**: you will need to define the second LED with a different variable name such as "LED2"
 --- /task ---
 
 --- task ---
-make the lights do something differnt when the stepper motor stops - like a little cohorography
+Try changing the LED blink pattern the LEDs when the wheel stops. 
+
+They could speed up or slow down when the wheel is in it's final position.
 --- /task ---
 
 --- task ---
-make the dial do a little "dance" before choosing
+Can you make the wheel do a little "dance" before stopping. 
+
+Experiment with `sleep()` and `stepper.rotate()`. 
 --- /task ---

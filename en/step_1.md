@@ -1,6 +1,6 @@
 ## What you will make
 
-Time to Make is a spinning wheel made from cardboard and a stepper motor that randomly selects one of four options each time it turns.
+Time to Make is a spinning wheel chooser made from cardboard and a stepper motor. It randomly selects one of four options each time it turns.
 
 You can make your own version! Yours could:
 - ask quiz questions

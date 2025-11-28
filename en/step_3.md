@@ -1,4 +1,4 @@
-## Make it turn
+## Turn it
 
 If you need help getting your Raspberry Pi Pico up and running, check out our [Getting Started with Pico Guide](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}
 

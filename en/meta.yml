@@ -6,13 +6,13 @@ pdf: false
 steps:
   - title: What you will make
   - title: Wire the motor
-  - title: Make it turn
+  - title: Turn it
   - title: Add a button
   - title: Add an LED
-  - title: Make the box
+  - title: Start making
   - title: Decorate
-  - title: Attach the dial
-  - title: Challange - random angle choice
+  - title: Attach the wheel
+  - title: Challenge - randomly select
     completion:
       - engaged      
   - title: More challenges
