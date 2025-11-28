@@ -8,13 +8,13 @@ Try making this blink with different timing than the first LED.
 --- /task ---
 
 --- task ---
-Try changing the LED blink pattern the LEDs when the wheel stops. 
+Try changing the LED blink pattern when the wheel stops. 
 
-They could speed up or slow down when the wheel is in it's final position.
+They could speed up, slow down, or alternate differently when the wheel is in it's final position.
 --- /task ---
 
 --- task ---
 Can you make the wheel do a little "dance" before stopping. 
 
-Experiment with `stepper.rotate()` to do this. 
+Experiment with `stepper.rotate()` to moe the wheel. 
 --- /task ---

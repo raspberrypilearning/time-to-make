@@ -4,7 +4,7 @@ Edit your code to randomly select one of four options each time you press the bu
 
 
 --- task ---
-Add the `random` libraries and import the choice function.
+Add the `random` libraries and import the `choice` function.
 
 --- code ---
 ---
@@ -90,7 +90,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 15
+line_highlights: 14
 ---
 from picozero import Pot, Button, DigitalLED
 from random import choice
@@ -112,15 +112,15 @@ while True:
 --- /task ---
 
 --- task ---
-In the `stepper.rotate` function, replace the 'cw' with `direction`.
+In the `stepper.rotate` function, replace 'cw' with `direction`.
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 16
-line_highlights: 16
+line_number_start: 15
+line_highlights: 15
 ---
         stepper.rotate(angle, direction)
 --- /code ---
