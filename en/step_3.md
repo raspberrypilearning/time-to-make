@@ -44,7 +44,7 @@ stepper = Stepper((18, 19, 20, 21))
 
 
 --- task ---
-Test the motor by get code stepper to move 90 degrees clockwise. This is shortened to `cw`.
+Test the motor by moving it 90 degrees clockwise. This is shortened to `cw`.
 
 --- code ---
 ---

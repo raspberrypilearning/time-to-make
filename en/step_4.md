@@ -85,5 +85,5 @@ while True:
 
 
 --- task ---
-**Test:** Press the button and watch the motor turn. 
+**Test:** Press the button. Does the motor turn? 
 --- /task ---

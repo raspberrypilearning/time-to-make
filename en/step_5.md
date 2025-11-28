@@ -94,7 +94,7 @@ while True:
 --- /task ---
 
 --- task ---
-**Test:** Press the button and watch the motor turn and the LED blink.
+**Test:** does the LED blink when you push the button?
 --- /task ---
 
 

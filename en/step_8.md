@@ -21,7 +21,7 @@ Attach them onto the stepper motor shaft with glue or tape.
 
 
 --- task ---
-Decorate the wheel.
+Decorate the wheel in your own style.
 
 Attach it to the spacer circles with tape or glue.
 
@@ -51,5 +51,5 @@ Plug the LED and stepper motor back into the breadboard and try it out!
 --- /task ---
 
 --- task ---
-**Test:** Press the button and watch your decorated dial turn while the LED blinks
+**Test:** Press the button and watch your decorated wheel turn while the LED blinks.
 --- /task ---
