@@ -1,4 +1,4 @@
-## Challenge - randomly select
+## Challenge - randomly turn
 
 Edit your code to randomly select one of four options each time you press the button.
 

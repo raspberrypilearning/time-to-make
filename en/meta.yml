@@ -12,7 +12,7 @@ steps:
   - title: Start making
   - title: Decorate
   - title: Attach the wheel
-  - title: Challenge - randomly select
+  - title: Challenge - randomly turn
     completion:
       - engaged      
   - title: More challenges
