@@ -16,5 +16,5 @@ They could speed up or slow down when the wheel is in it's final position.
 --- task ---
 Can you make the wheel do a little "dance" before stopping. 
 
-Experiment with `sleep()` and `stepper.rotate()`. 
+Experiment with `stepper.rotate()` to do this. 
 --- /task ---

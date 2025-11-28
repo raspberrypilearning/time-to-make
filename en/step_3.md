@@ -15,18 +15,16 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 1-2
+line_highlights: 1
 ---
 from picozero import Stepper
-from time import sleep
 --- /code ---
 
 --- /task ---
 
 
 --- task ---
-Define t
-18 19 20 21
+Define the stepper motor pins.
 
 --- code ---
 ---
@@ -34,10 +32,9 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 4-5
+line_highlights: 3-4
 ---
 from picozero import Stepper
-from time import sleep
 
 #define pins
 stepper = Stepper((18, 19, 20, 21))
@@ -55,10 +52,9 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 7-8
+line_highlights: 6-7
 ---
 from picozero import Stepper
-from time import sleep
 
 #define pins
 stepper = Stepper((18, 19, 20, 21))

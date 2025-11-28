@@ -12,10 +12,9 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 3
+line_highlights: 2
 ---
 from picozero import Pot, Button, DigitalLED
-from time import sleep
 from random import choice
 
 #define pins
@@ -43,10 +42,9 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 14-15
+line_highlights: 13
 ---
 from picozero import Pot, Button, DigitalLED
-from time import sleep
 from random import choice
 
 #define pins
@@ -72,8 +70,8 @@ In the `stepper.rotate` function, replace the 90 degrees with `angle`.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 15
-line_highlights: 15
+line_number_start: 14
+line_highlights: 14
 ---
         stepper.rotate(angle, 'cw')
 --- /code ---
@@ -92,10 +90,9 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 16
+line_highlights: 15
 ---
 from picozero import Pot, Button, DigitalLED
-from time import sleep
 from random import choice
 
 #define pins
@@ -122,8 +119,8 @@ In the `stepper.rotate` function, replace the 'cw' with `direction`.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 17
-line_highlights: 17
+line_number_start: 16
+line_highlights: 16
 ---
         stepper.rotate(angle, direction)
 --- /code ---

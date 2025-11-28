@@ -25,7 +25,6 @@ line_number_start: 1
 line_highlights: 1
 ---
 from picozero import Pot, Button, DigitalLED
-from time import sleep
 
 #define pins
 stepper = Stepper((18, 19, 20, 21))
@@ -48,10 +47,9 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 7
+line_highlights: 6
 ---
 from picozero import Pot, Button, DigitalLED
-from time import sleep
 
 #define pins
 stepper = Stepper((18, 19, 20, 21))
@@ -77,10 +75,9 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 11
+line_highlights: 10
 ---
 from picozero import Pot, Button, DigitalLED
-from time import sleep
 
 #define pins
 stepper = Stepper((18, 19, 20, 21))
