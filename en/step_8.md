@@ -25,7 +25,7 @@ Decorate the wheel in your own style.
 
 Attach it to the spacer circles with tape or glue.
 
-![Image of attaching](images/attach.gif)
+![Image of attaching](images/attach.gif){:width="500px"}
 ![Image of decorated wheel](images/decor-2.png){:width="500px"}
 --- /task ---
 
@@ -39,7 +39,7 @@ Unplug the LED and glue or tape it to the box.
 --- task ---
 Carefully move the wheel and stepper motor shaft, so that it is over one of the words
 
-![Animated gif of moving the dial into the right place](images/move.gif)
+![Animated gif of moving the dial into the right place](images/move.gif){:width="500px"}
 --- /task ---
 
 --- task ---
