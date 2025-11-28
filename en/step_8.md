@@ -5,8 +5,8 @@ Cut out two small spacer circles from card. These are used to space the wheel aw
 
 Add two small holes.
 
-![Image of cutting out smaller dials](images/small-dials1.png)
-![Image of making small holes for the stepper motor shaft](images/small-dials2.png)
+![Image of cutting out smaller dials](images/small-dials1.png){:width="500px"}
+![Image of making small holes for the stepper motor shaft](images/small-dials2.png){:width="500px"}
 
 **Tip:** make sure you can't see the spacer circles through the wheel.
 --- /task ---
@@ -16,7 +16,7 @@ Add two small holes.
 Glue the spacer circles together. 
 
 Attach them onto the stepper motor shaft with glue or tape.
-![Image of gluing the smaller discs together](images/small-dials3.png)
+![Image of gluing the smaller discs together](images/small-dials3.png){:width="500px"}
 --- /task ---
 
 
@@ -26,14 +26,14 @@ Decorate the wheel in your own style.
 Attach it to the spacer circles with tape or glue.
 
 ![Image of attaching](images/attach.gif)
-![Image of decorated wheel](images/decor-2.png)
+![Image of decorated wheel](images/decor-2.png){:width="500px"}
 --- /task ---
 
 --- task ---
 Unplug the LED and glue or tape it to the box. 
 
 **Tip:** The LED should fit under the wheel because of the spacer circles, but you can add it anywhere eon the box.
-![Image of LEDs stuck on](images/LED-1.png)
+![Image of LEDs stuck on](images/LED-1.png){:width="500px"}
 --- /task ---
 
 --- task ---
@@ -47,7 +47,7 @@ Plug the LED and stepper motor back into the breadboard and try it out!
 
 **Tip:** you could store the breadboard inside the box.
 
-![Wires and breadboard inside the box](images/wires.png)
+![Wires and breadboard inside the box](images/wires.png){:width="500px"}
 --- /task ---
 
 --- task ---
