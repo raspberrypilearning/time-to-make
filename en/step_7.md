@@ -10,7 +10,9 @@ Move the wheel to 4 positions and draw inside the window at each position. This 
 
 
 --- task ---
-Decorate the box and add text.
+Decorate the box however you would like it to look
+
+Add add your 4 text choices.
 
 **Tip:** make the text a little bit smaller than the window so that there is room for error.
 ![Image of all 4 texts](images/decor-1.png){:width="500px"}
