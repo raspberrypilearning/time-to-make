@@ -16,5 +16,5 @@ They could speed up, slow down, or alternate differently when the wheel is in it
 --- task ---
 Can you make the wheel do a little "dance" before stopping. 
 
-Experiment with `stepper.rotate()` to moe the wheel. 
+Experiment with `stepper.rotate()` to move the wheel. 
 --- /task ---
