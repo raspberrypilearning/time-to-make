@@ -45,5 +45,11 @@ Carefully move the wheel and stepper motor shaft, so that it is over one of the 
 --- task ---
 Plug the LED and stepper motor back into the breadboard and try it out! 
 
+**Tip:** you could store the breadboard inside the box.
+
+![Wires and breadboard inside the box](images/wires.png)
+--- /task ---
+
+--- task ---
 **Test:** Press the button and watch your decorated dial turn while the LED blinks
 --- /task ---
