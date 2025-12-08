@@ -24,6 +24,8 @@ See it in action. Sound on 🔊
 - button
 - 1-2 LEDs
 
+To program the Raspberry Pi PicoYou will need the [Thonny IDE](http://thonny.org/){:target="_blank"} and MicroPython packages installed. Instructions for this are [available here.](https://learning-admin.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}
+
 ![Pico in a breadbaord, stepper motor, button, two resistors, and two LEDs](images/all-parts.png){:width="500px"}
 
 ### For the device:
@@ -32,5 +34,3 @@ See it in action. Sound on 🔊
 - glue and/or tape
 - decorative materials (pens / paint / coloured stickers or paper)
 
-To program the Raspberry Pi Pico, you will need the [Thonny IDE](http://thonny.org/){:target="_blank"} and MicroPython packages installed. 
-[Instructions for this process are available here.](https://learning-admin.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}
