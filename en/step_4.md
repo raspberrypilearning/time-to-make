@@ -49,15 +49,15 @@ from picozero import Pot, Button
 stepper = Stepper((18, 19, 20, 21))
 button = Button(15)
 
-#rotate motor
-stepper.rotate(90, 'cw')
+#turn motor
+stepper.turn(90, 'cw')
 --- /code ---
 
 --- /task ---
 
 
 --- task ---
-Add code to rotate the motor if the button is pressed.
+Add code to turn the motor if the button is pressed.
 
 **Tip:** Look how the code is now indented, this is important with python.
 
@@ -77,8 +77,8 @@ button = Button(15)
 
 while True:
     if button.is_pressed:
-        #rotate motor
-        stepper.rotate(90, 'cw')
+        #turn motor
+        stepper.turn(90, 'cw')
 --- /code ---
 
 --- /task ---

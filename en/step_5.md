@@ -32,8 +32,8 @@ button = Button(15)
 
 while True:
     if button.is_pressed:
-        #rotate motor
-        stepper.rotate(90, 'cw')
+        #turn motor
+        stepper.turn(90, 'cw')
 --- /code ---
 
 --- /task ---
@@ -58,8 +58,8 @@ led = DigitalLED(14)
 
 while True:
     if button.is_pressed:
-        #rotate motor
-        stepper.rotate(90, 'cw')
+        #turn motor
+        stepper.turn(90, 'cw')
 --- /code ---
 
 --- /task ---
@@ -87,8 +87,8 @@ led = DigitalLED(14)
 while True:
     if button.is_pressed:
         led.blink(0.3,0.3)
-        #rotate motor
-        stepper.rotate(90, 'cw')
+        #turn motor
+        stepper.turn(90, 'cw')
 --- /code ---
 
 --- /task ---

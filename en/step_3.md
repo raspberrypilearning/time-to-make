@@ -61,8 +61,8 @@ from picozero import Stepper
 #define pins
 stepper = Stepper((18, 19, 20, 21))
 
-#rotate motor
-stepper.rotate(90, 'cw')
+#turn motor
+stepper.turn(90, 'cw')
 --- /code ---
 
 --- /task ---

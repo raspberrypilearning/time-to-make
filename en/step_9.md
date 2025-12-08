@@ -25,8 +25,8 @@ led = DigitalLED(14)
 while True:
     if button.is_pressed:
         led.blink(0.3,0.3)
-        #rotate motor
-        stepper.rotate(90, 'cw')
+        #turn motor
+        stepper.turn(90, 'cw')
 --- /code ---
 
 --- /task ---
@@ -55,15 +55,15 @@ led = DigitalLED(14)
 while True:
     if button.is_pressed:
         led.blink(0.3,0.3)
-        #rotate motor
+        #turn motor
         angle = choice([90, 180, 270])
-        stepper.rotate(90, 'cw')
+        stepper.turn(90, 'cw')
 --- /code ---
 
 --- /task ---
 
 --- task ---
-In the `stepper.rotate` function, replace the 90 degrees with `angle`.
+In the `stepper.turn` function, replace the 90 degrees with `angle`.
 
 --- code ---
 ---
@@ -73,7 +73,7 @@ line_numbers: true
 line_number_start: 14
 line_highlights: 14
 ---
-        stepper.rotate(angle, 'cw')
+        stepper.turn(angle, 'cw')
 --- /code ---
 
 --- /task ---
@@ -103,16 +103,16 @@ led = DigitalLED(14)
 while True:
     if button.is_pressed:
         led.blink(0.3,0.3)
-        #rotate motor
+        #turn motor
         angle = choice([90, 180, 270])
         direction = choice(['cw','ccw'])
-        stepper.rotate(angle, 'cw')
+        stepper.turn(angle, 'cw')
 --- /code ---
 
 --- /task ---
 
 --- task ---
-In the `stepper.rotate` function, replace 'cw' with `direction`.
+In the `stepper.turn` function, replace 'cw' with `direction`.
 
 --- code ---
 ---
@@ -122,7 +122,7 @@ line_numbers: true
 line_number_start: 15
 line_highlights: 15
 ---
-        stepper.rotate(angle, direction)
+        stepper.turn(angle, direction)
 --- /code ---
 
 --- /task ---
