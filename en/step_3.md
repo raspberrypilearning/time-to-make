@@ -3,7 +3,9 @@
 If you need help getting your Raspberry Pi Pico up and running, check out our [Getting Started with Pico Guide](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}
 
 --- task ---
-Open a **new file** in your code editor.
+
+Open a **new file** in the [Thonny IDE](http://thonny.org/){:target="_blank"}. 
+
 --- /task ---
 
 --- task ---

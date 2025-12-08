@@ -23,7 +23,7 @@ Attach them onto the stepper motor shaft with glue or tape.
 --- task ---
 Decorate the wheel in your own style.
 
-Attach it to the spacer circles with tape or glue.
+Attach it to the spacer circles with tape or glue. If the wheel feels loose, add some bluetak or a small amount of hot glue to make it more secure.
 
 ![Image of attaching](images/attach.gif){:width="500px"}
 ![Image of decorated wheel](images/decor-2.gif){:width="500px"}

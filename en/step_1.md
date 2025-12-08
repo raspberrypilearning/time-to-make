@@ -1,6 +1,6 @@
 ## What you will make
 
-Time to Make is a spinning wheel chooser made from cardboard and a stepper motor. It randomly selects one of four options each time it turns.
+**Time to Make** is a spinning wheel chooser made from cardboard and a stepper motor. It randomly selects one of four options each time it turns.
 
 You can make your own version! Yours could:
 - ask quiz questions
@@ -16,8 +16,7 @@ See it in action. Sound on 🔊
 </div><br>
 </html>
 
-### You will need:
-For the circuit:
+### You will need for the circuit:
 - stepper motor and driver
 - Pico
 - USB cable for the Pico
@@ -27,8 +26,11 @@ For the circuit:
 
 ![Pico in a breadbaord, stepper motor, button, two resistors, and two LEDs](images/all-parts.png){:width="500px"}
 
-For the device:
+### For the device:
 - cardboard box or card to make a box
 - card to make dials
 - glue and/or tape
 - decorative materials (pens / paint / coloured stickers or paper)
+
+To program the Raspberry Pi Pico, you will need the [Thonny IDE](http://thonny.org/){:target="_blank"} and MicroPython packages installed. 
+[Instructions for this process are available here.](https://learning-admin.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}
