@@ -3,17 +3,17 @@
 --- task ---
 Add an LED amd a 220Ohm resistor to the breadboard.
 
-Put one resistor leg into GP15 (20) in the Pico, and the other into a free row in the breadboard.
+Put one resistor leg into GP15 in the Pico, and the other into a free row in the breadboard.
 
-Add a socket to pin wire from the same row in the breadboard to the long LED leg.
+Add a socket-to-pin wire from the same row in the breadboard to the long LED leg.
 
-Add a black socket to pin wire from the shorter LED leg to GND (3) on the Pico.
+Add a socket-to-pin wire from the shorter LED leg to GND.
 
 ![LEDs in a breadboard](images/led-full.png){:width="500px"}
 --- /task ---
 
 --- task ---
-Import the 'DigitalLED' from the picozero library.
+Import `LED` from the picozero library.
 
 --- code ---
 
@@ -24,11 +24,11 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 1
 ---
-from picozero import Pot, Button, DigitalLED
+from picozero import Stepper, Button, LED
 
 #define pins
 stepper = Stepper((18, 19, 20, 21))
-button = Button(15)
+button = Button(16)
 
 while True:
     if button.is_pressed:
@@ -49,12 +49,12 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 6
 ---
-from picozero import Pot, Button, DigitalLED
+from picozero import Stepper, Button, LED
 
 #define pins
 stepper = Stepper((18, 19, 20, 21))
-button = Button(15)
-led = DigitalLED(14)
+button = Button(16)
+led = LED(15)
 
 while True:
     if button.is_pressed:
@@ -77,12 +77,12 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 10
 ---
-from picozero import Pot, Button, DigitalLED
+from picozero import Stepper, Button, LED
 
 #define pins
 stepper = Stepper((18, 19, 20, 21))
-button = Button(15)
-led = DigitalLED(14)
+button = Button(16)
+led = LED(15)
 
 while True:
     if button.is_pressed:

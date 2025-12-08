@@ -9,7 +9,7 @@ If you need help getting your Raspberry Pi Pico up and running, check out our [G
 --- /task ---
 
 --- task ---
-Add the `time` and `picozero` libraries and import the Stepper and sleep functions.
+Add the `picozero` library and import `Stepper`.
 
 --- code ---
 ---

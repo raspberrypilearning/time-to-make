@@ -26,10 +26,10 @@ Add a black wire from - on driver to GND (-3) on the Pico.
 --- task ---
 Plug the pins of driver into Pico
 
-Driver pin 1 to GP18 (-17)
-Driver pin 2 to GP19 (-16)
-Driver pin 3 to GP20 (-15)
-Driver pin 4 to GP21 (-14)
+Driver pin 1 to GP18 
+Driver pin 2 to GP19 
+Driver pin 3 to GP20 
+Driver pin 4 to GP21
 
 ![Driver pins in the breadboard showing which pins to use in Pico, also listed above](images/driver-full.png){:width="500px"}
 --- /task ---

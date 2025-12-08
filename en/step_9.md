@@ -14,13 +14,13 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 2
 ---
-from picozero import Pot, Button, DigitalLED
+from picozero import Stepper, Button, LED
 from random import choice
 
 #define pins
 stepper = Stepper((18, 19, 20, 21))
-button = Button(15)
-led = DigitalLED(14)
+button = Button(16)
+led = LED(15)
 
 while True:
     if button.is_pressed:
@@ -44,12 +44,12 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 13
 ---
-from picozero import Pot, Button, DigitalLED
+from picozero import Stepper, Button, LED
 from random import choice
 
 #define pins
 stepper = Stepper((18, 19, 20, 21))
-button = Button(15)
+button = Button(16)
 led = DigitalLED(14)
 
 while True:
@@ -63,7 +63,7 @@ while True:
 --- /task ---
 
 --- task ---
-In the `stepper.turn` function, replace the 90 degrees with `angle`.
+In `stepper.turn`, replace the 90 degrees with `angle`.
 
 --- code ---
 ---
@@ -92,13 +92,13 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 14
 ---
-from picozero import Pot, Button, DigitalLED
+from picozero import Stepper, Button, LED
 from random import choice
 
 #define pins
 stepper = Stepper((18, 19, 20, 21))
-button = Button(15)
-led = DigitalLED(14)
+button = Button(16)
+led = LED(15)
 
 while True:
     if button.is_pressed:
@@ -112,7 +112,7 @@ while True:
 --- /task ---
 
 --- task ---
-In the `stepper.turn` function, replace 'cw' with `direction`.
+In `stepper.turn`, replace 'cw' with `direction`.
 
 --- code ---
 ---

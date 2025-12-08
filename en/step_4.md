@@ -1,10 +1,10 @@
 ## Add a button
 
 --- task ---
-Add A button to the breadboard. 
+Add a button to the breadboard. 
 
-Use a black wire from the button to GND (-18)
-Use a purple wire from the other side of the button to GP16 (-20)
+Connect one side of the button to GND.
+Connect the other side to GP16.
 
 ![Push button in a breadbaord](images/button-full.png){:width="500px"}
 --- /task ---
@@ -20,7 +20,7 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 1
 ---
-from picozero import Pot, Button
+from picozero import Stepper, Button
 
 #define pins
 stepper = Stepper((18, 19, 20, 21))
@@ -43,11 +43,11 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 5
 ---
-from picozero import Pot, Button
+from picozero import Stepper, Button
 
 #define pins
 stepper = Stepper((18, 19, 20, 21))
-button = Button(15)
+button = Button(16)
 
 #turn motor
 stepper.turn(90, 'cw')
@@ -69,11 +69,11 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 7-10
 ---
-from picozero import Pot, Button
+from picozero import Stepper, Button
 
 #define pins
 stepper = Stepper((18, 19, 20, 21))
-button = Button(15)
+button = Button(16)
 
 while True:
     if button.is_pressed:
