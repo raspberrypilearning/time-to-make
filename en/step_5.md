@@ -1,13 +1,11 @@
 ## Add an LED
 
 --- task ---
-Add an LED amd a 220Ohm resistor to the breadboard.
+Add an LED and a 220Ω resistor to the breadboard.
 
-Put one resistor leg into GP15 in the Pico, and the other into a free row in the breadboard.
-
-Add a socket-to-pin wire from the same row in the breadboard to the long LED leg.
-
-Add a socket-to-pin wire from the shorter LED leg to GND.
+- Put one resistor leg into GP15 in the Pico, and the other into a free row in the breadboard.
+- Add a socket-to-pin wire from the same row in the breadboard to the long LED leg.
+- Add a socket-to-pin wire from the shorter LED leg to GND.
 
 ![LEDs in a breadboard](images/led-full.png){:width="500px"}
 --- /task ---
@@ -67,7 +65,7 @@ while True:
 --- task ---
 Make the LED blink. 
 
-Experiment with the length of time on and off by changing the numbers in the brackets
+Experiment with the length of time on and off by changing the numbers in the brackets. The first number is on and the second number is off.
 
 --- code ---
 ---

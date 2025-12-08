@@ -15,9 +15,9 @@ Insert the stepper motor wires into the driver.
 
 
 --- task ---
-Power the driver by adding a red wire from the + on driver to VBUS (-1) on the Pico. 
+Power the driver by adding a wire from the + on driver to VBUS on the Pico. 
 
-Add a black wire from - on driver to GND (-3) on the Pico.
+Add a wire from - on driver to GND on the Pico.
 
 ![Driver pins in the breadboard showing which power pins to use in Pico, also listed above](images/power-full.png){:width="500px"}
 --- /task ---

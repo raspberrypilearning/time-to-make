@@ -32,7 +32,7 @@ while True:
 --- /task ---
 
 --- task ---
-The wheel has three angles to turn to: 90 degrees, 180 degrees, 270 degrees. 
+The are three more designs to choose from. To get to these the wheel has to turn to either 90 degrees, 180 degrees, 270 degrees. 
 
 Add an `angle` variable. Use `choice` to randomly choose between the three angles.
 
@@ -50,7 +50,7 @@ from random import choice
 #define pins
 stepper = Stepper((18, 19, 20, 21))
 button = Button(16)
-led = DigitalLED(14)
+led = LED(15)
 
 while True:
     if button.is_pressed:
@@ -63,7 +63,7 @@ while True:
 --- /task ---
 
 --- task ---
-In `stepper.turn`, replace the 90 degrees with `angle`.
+In `stepper.turn` replace the 90 degrees with `angle`.
 
 --- code ---
 ---
@@ -82,7 +82,7 @@ line_highlights: 14
 --- task ---
 There are two directions the wheel could turn: clockwise and counter clockwise.
 
-Add a `direction` variable. Use `choice` to randomly choose between the two directions.
+Add a `direction` variable. Use `choice` to randomly choose between the two directions. Counter clockwise is shortend to **ccw**.
 
 --- code ---
 ---
@@ -112,7 +112,7 @@ while True:
 --- /task ---
 
 --- task ---
-In `stepper.turn`, replace 'cw' with `direction`.
+In `stepper.turn` replace 'cw' with `direction`.
 
 --- code ---
 ---

@@ -57,9 +57,9 @@ stepper.turn(90, 'cw')
 
 
 --- task ---
-Add code to turn the motor if the button is pressed.
+Add code to turn the motor if the button is pressed. 
 
-**Tip:** Look how the code is now indented, this is important with python.
+**Tip:** look how the code is now indented, this is important with python.
 
 --- code ---
 ---
@@ -85,5 +85,5 @@ while True:
 
 
 --- task ---
-**Test:** Press the button. Does the motor turn? 
+**Test:** press the button. Does the motor turn? 
 --- /task ---
