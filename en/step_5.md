@@ -1,17 +1,17 @@
 ## Add an LED
 
 --- task ---
-Add an LED and a 220Ω resistor to the breadboard.
+Add an LED and a 220Ω resistor to the breadboard:
 
-- Put one resistor leg into GP15 in the Pico, and the other into a free row in the breadboard.
-- Add a socket-to-pin wire from the same row in the breadboard to the long LED leg.
-- Add a socket-to-pin wire from the shorter LED leg to GND.
+- Put one leg of the resistor into **GP15** in the Raspberry Pi Pico, and the other into a free row in the breadboard
+- Add a socket-to-pin wire from the long leg of the LED to the row where you have just added the second leg of the resistor
+- Add a socket-to-pin wire from the short leg of the LED to **GND**
 
-![LEDs in a breadboard](images/led-full.png){:width="500px"}
+![The resistor has been inserted into the breadboard and the LED is connected to the breadboard with wires as described.](images/led-full.png){:width="500px"}
 --- /task ---
 
 --- task ---
-Import `LED` from the picozero library.
+Import `LED` from the `picozero` library.
 
 --- code ---
 
@@ -24,20 +24,20 @@ line_highlights: 1
 ---
 from picozero import Stepper, Button, LED
 
-#define pins
+# define the pins
 stepper = Stepper((18, 19, 20, 21))
 button = Button(16)
 
 while True:
     if button.is_pressed:
-        #turn motor
+        # turn the motor
         stepper.turn(90, 'cw')
 --- /code ---
 
 --- /task ---
 
 --- task ---
-Define the LED pin
+Define the pin for the LED.
 
 --- code ---
 ---
@@ -49,14 +49,14 @@ line_highlights: 6
 ---
 from picozero import Stepper, Button, LED
 
-#define pins
+# define the pins
 stepper = Stepper((18, 19, 20, 21))
 button = Button(16)
 led = LED(15)
 
 while True:
     if button.is_pressed:
-        #turn motor
+        # turn the motor
         stepper.turn(90, 'cw')
 --- /code ---
 
@@ -65,7 +65,7 @@ while True:
 --- task ---
 Make the LED blink. 
 
-Experiment with the length of time on and off by changing the numbers in the brackets. The first number is on and the second number is off.
+To experiment with the length of time that the LED is on and off, change the numbers in the brackets. The first number sets how long the LED is on, and the second number sets how long it is off.
 
 --- code ---
 ---
@@ -77,7 +77,7 @@ line_highlights: 10
 ---
 from picozero import Stepper, Button, LED
 
-#define pins
+# define the pins
 stepper = Stepper((18, 19, 20, 21))
 button = Button(16)
 led = LED(15)
@@ -85,14 +85,14 @@ led = LED(15)
 while True:
     if button.is_pressed:
         led.blink(0.3,0.3)
-        #turn motor
+        # turn the motor
         stepper.turn(90, 'cw')
 --- /code ---
 
 --- /task ---
 
 --- task ---
-**Test:** does the LED blink when you push the button?
+**Test:** Does the LED blink when you push the button?
 --- /task ---
 
 

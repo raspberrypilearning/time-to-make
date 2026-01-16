@@ -1,10 +1,10 @@
-## Challenge - randomly turn
+## Challenge: Turn randomly
 
-Edit your code to randomly select one of four options each time you press the button. This will make the chooser more fun to use!
+Edit your code to randomly select one of the four options each time you press the button. This will make the selection wheel more fun to use!
 
 
 --- task ---
-Add the `random` libraries and import the `choice` function.
+Add the `random` library and import the `choice` function.
 
 --- code ---
 ---
@@ -17,7 +17,7 @@ line_highlights: 2
 from picozero import Stepper, Button, LED
 from random import choice
 
-#define pins
+# define the pins
 stepper = Stepper((18, 19, 20, 21))
 button = Button(16)
 led = LED(15)
@@ -25,14 +25,14 @@ led = LED(15)
 while True:
     if button.is_pressed:
         led.blink(0.3,0.3)
-        #turn motor
+        # turn the motor
         stepper.turn(90, 'cw')
 --- /code ---
 
 --- /task ---
 
 --- task ---
-The are three more designs to choose from. To get to these the wheel has to turn to either 90 degrees, 180 degrees, 270 degrees. 
+On your selection wheel, there are three more text options to choose from. To get to these, the wheel has to turn to either 90 degrees, 180 degrees, or 270 degrees. 
 
 Add an `angle` variable. Use `choice` to randomly choose between the three angles.
 
@@ -47,7 +47,7 @@ line_highlights: 13
 from picozero import Stepper, Button, LED
 from random import choice
 
-#define pins
+# define the pins
 stepper = Stepper((18, 19, 20, 21))
 button = Button(16)
 led = LED(15)
@@ -55,7 +55,7 @@ led = LED(15)
 while True:
     if button.is_pressed:
         led.blink(0.3,0.3)
-        #turn motor
+        # turn the motor
         angle = choice([90, 180, 270])
         stepper.turn(90, 'cw')
 --- /code ---
@@ -63,7 +63,7 @@ while True:
 --- /task ---
 
 --- task ---
-In `stepper.turn` replace the 90 degrees with `angle`.
+In `stepper.turn`, replace `90` (degrees) with `angle`.
 
 --- code ---
 ---
@@ -80,9 +80,9 @@ line_highlights: 14
 
 
 --- task ---
-There are two directions the wheel could turn: clockwise and counter clockwise.
+There are two directions the wheel could turn: clockwise and counterclockwise (anticlockwise).
 
-Add a `direction` variable. Use `choice` to randomly choose between the two directions. Counter clockwise is shortend to **ccw**.
+Add a `direction` variable. Use `choice` to randomly choose between the two directions. 'Counterclockwise' is shortened to **'ccw'**.
 
 --- code ---
 ---
@@ -95,7 +95,7 @@ line_highlights: 14
 from picozero import Stepper, Button, LED
 from random import choice
 
-#define pins
+# define the pins
 stepper = Stepper((18, 19, 20, 21))
 button = Button(16)
 led = LED(15)
@@ -103,7 +103,7 @@ led = LED(15)
 while True:
     if button.is_pressed:
         led.blink(0.3,0.3)
-        #turn motor
+        # turn the motor
         angle = choice([90, 180, 270])
         direction = choice(['cw','ccw'])
         stepper.turn(angle, 'cw')
@@ -112,7 +112,7 @@ while True:
 --- /task ---
 
 --- task ---
-In `stepper.turn` replace 'cw' with `direction`.
+In `stepper.turn`, replace `'cw'` with `direction`.
 
 --- code ---
 ---

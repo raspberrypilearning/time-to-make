@@ -1,18 +1,18 @@
 title: Time to make
 hero_image: images/banner.png
-description: A spinning wheel that reveals prompts
+description: Make a spinning selection wheel that reveals prompts
 listed: false
 pdf: false
 steps:
   - title: What you will make
   - title: Wire the motor
-  - title: Turn it
+  - title: Turn the motor
   - title: Add a button
   - title: Add an LED
   - title: Start making
   - title: Decorate
   - title: Attach the wheel
-  - title: Challenge - randomly turn
+  - title: "Challenge: Turn randomly"
     completion:
       - engaged      
   - title: More challenges

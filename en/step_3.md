@@ -1,10 +1,10 @@
-## Turn it
+## Turn the motor
 
 --- task ---
 
-Open a **new file** in the [Thonny IDE](http://thonny.org/){:target="_blank"}. 
+Open a **new file** in [Thonny](http://thonny.org/){:target="_blank"}. 
 
-If you need help getting your Raspberry Pi Pico up and running, check out our [Getting Started with Pico Guide](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}
+If you need help getting ready to program your Raspberry Pi Pico, check out our ['Getting started with Raspberry Pi Pico' guide](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}.
 
 --- /task ---
 
@@ -26,7 +26,7 @@ from picozero import Stepper
 
 
 --- task ---
-Define the stepper motor pins.
+Define the pins for the stepper motor.
 
 --- code ---
 ---
@@ -38,7 +38,7 @@ line_highlights: 3-4
 ---
 from picozero import Stepper
 
-#define pins
+# define the pins
 stepper = Stepper((18, 19, 20, 21))
 --- /code ---
 
@@ -46,7 +46,7 @@ stepper = Stepper((18, 19, 20, 21))
 
 
 --- task ---
-Test the motor by moving it 90 degrees clockwise. This is shortened to **cw**.
+To test the motor, move it 90 degrees clockwise. 'Clockwise' is shortened to **'cw'**.
 
 --- code ---
 ---
@@ -58,10 +58,10 @@ line_highlights: 6-7
 ---
 from picozero import Stepper
 
-#define pins
+# define the pins
 stepper = Stepper((18, 19, 20, 21))
 
-#turn motor
+# turn the motor
 stepper.turn(90, 'cw')
 --- /code ---
 
@@ -69,6 +69,6 @@ stepper.turn(90, 'cw')
 
 
 --- task ---
-**Test:** watch the motor turn when you run the code.
+**Test:** Run the code and watch the motor turn.
 --- /task ---
 

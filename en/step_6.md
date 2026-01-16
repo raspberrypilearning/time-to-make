@@ -1,32 +1,36 @@
 ## Start making
 
 --- task ---
-Find a small box to use as the base of the chooser. A shoe box is a good size, or similar size packaging.
+Take your small cardboard box. You will use this as the base of the selection wheel.
 
-Mark the centre of the box with a pen and make a hole with a sharp pencil.
-![Image of marked point](images/box-1.png){:width="500px"}
+Mark the centre of the box, then make a hole with a sharp pencil.
+![Making a hole in the centre of a shoe box with a pencil.](images/box-1.png){:width="500px"}
 --- /task ---
 
 --- task ---
-Unplug the stepper motor from the driver, and tape it inside the box. 
+Unplug the stepper motor from the driver.
 
-Poke the motor shaft through the hole. You can see it on the outside.
+From the inside of the box, poke the motor shaft through the hole you have just made. You should be able to see it on the outside. 
 
-![Image of stepper motor from the back](images/box-motor-1.png){:width="500px"}
-![Image of front of box with stepper motor shaft poking through](images/box-motor-2.png){:width="500px"}
+Tape the motor inside the box. 
+
+![Poking the shaft of the stepper motor through the hole from the inside of the box.](images/box-motor-1.png){:width="500px"}
+![The stepper motor taped to the inside of the box.](images/box-motor-2.png){:width="500px"}
 
 --- /task ---
 
 --- task ---
-Cut the wheel out of card. Measure it so that it is not bigger than the box.
-![Image of cutting out](images/dial-1.png){:width="500px"}
-![Image of dial next to box](images/dial-2.png){:width="500px"}
+On another piece of cardboard, draw a wheel that is no bigger than the box, then cut it out.
+
+Mark the centre of the wheel.
+![Cutting the wheel out.](images/dial-1.png){:width="500px"}
+![Marking the centre of the wheel.](images/dial-2.png){:width="500px"}
 --- /task ---
 
 --- task ---
-Draw a text window on the wheel and cut it out.
+Draw a window on the wheel and cut it out. This is where your text will appear.
 
-Make a hole in the in the centre.
-![Wheel with markings on it](images/dial-3.png){:width="500px"}
+Make a hole in the centre of the wheel, where you had marked.
+![A cardboard wheel with a circle drawn on one side and a small hole in the centre.](images/dial-3.png){:width="500px"}
 --- /task ---
 
