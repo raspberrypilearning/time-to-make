@@ -32,7 +32,7 @@ while True:
 --- /task ---
 
 --- task ---
-On your selection wheel, there are three more text options to choose from. To get to these, the wheel has to turn to either 90 degrees, 180 degrees, or 270 degrees. 
+On your selection wheel, there are four text options to choose from. To get to these, the wheel has to turn to either 90 degrees, 180 degrees, 270 degrees, or 360 degrees. 
 
 Add an `angle` variable. Use `choice` to randomly choose between the three angles.
 
@@ -56,7 +56,7 @@ while True:
     if button.is_pressed:
         led.blink(0.3,0.3)
         # turn the motor
-        angle = choice([90, 180, 270])
+        angle = choice([90, 180, 270, 360])
         stepper.turn(90, 'cw')
 --- /code ---
 
@@ -104,7 +104,7 @@ while True:
     if button.is_pressed:
         led.blink(0.3,0.3)
         # turn the motor
-        angle = choice([90, 180, 270])
+        angle = choice([90, 180, 270, 360])
         direction = choice(['cw','ccw'])
         stepper.turn(angle, 'cw')
 --- /code ---
