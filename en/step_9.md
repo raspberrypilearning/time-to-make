@@ -32,9 +32,9 @@ while True:
 --- /task ---
 
 --- task ---
-On your selection wheel, there are four text options to choose from. To get to these, the wheel has to turn to either 90 degrees, 180 degrees, 270 degrees, or 360 degrees. 
+To get to one of the four text options on your selection wheel, the wheel has to turn to either 90 degrees, 180 degrees, 270 degrees, or 360 degrees.
 
-Add an `angle` variable. Use `choice` to randomly choose between the three angles.
+Add an `angle` variable. Use `choice` to randomly choose between the four angles.
 
 --- code ---
 ---
@@ -63,7 +63,7 @@ while True:
 --- /task ---
 
 --- task ---
-In `stepper.turn`, replace `90` (degrees) with `angle`.
+In `stepper.turn()`, replace `90` (degrees) with `angle`.
 
 --- code ---
 ---
@@ -112,7 +112,7 @@ while True:
 --- /task ---
 
 --- task ---
-In `stepper.turn`, replace `'cw'` with `direction`.
+In `stepper.turn()`, replace `'cw'` with `direction`.
 
 --- code ---
 ---
