@@ -1,8 +1,8 @@
 ## What you will make
 
-Make a spinning selection wheel with cardboard and a stepper motor. The selection wheel will  reveal one of four options each time it turns.
+Make a spinning selection wheel with cardboard and a stepper motor. The selection wheel will reveal one of four options each time it turns.
 
-You can design your own selection wheel to help you in lots of different ways! For example, your selection wheel could:
+You can design your own selection wheel to help you in lots of different ways! For example, yours could:
 - Ask quiz questions
 - Give yes or no answers
 - Generate story ideas
