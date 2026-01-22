@@ -1,4 +1,4 @@
-## Attach the wheel
+
 
 --- task ---
 Cut out two small spacer circles from a piece of cardboard. You will use these to space the wheel away from the box.
