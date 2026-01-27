@@ -1,6 +1,7 @@
 ## Add an LED
 
 --- task ---
+
 Add an LED and a 220Ω resistor to the breadboard:
 
 - Put one leg of the resistor into **GP15** in the Raspberry Pi Pico, and the other into a free row in the breadboard
@@ -8,9 +9,11 @@ Add an LED and a 220Ω resistor to the breadboard:
 - Add a socket-to-pin wire from the short leg of the LED to **GND**
 
 ![The resistor has been inserted into the breadboard and the LED is connected to the breadboard with wires as described.](images/led-full.png){:width="500px"}
+
 --- /task ---
 
 --- task ---
+
 Import `LED` from the `picozero` library.
 
 --- code ---
@@ -37,6 +40,7 @@ while True:
 --- /task ---
 
 --- task ---
+
 Define the pin for the LED.
 
 --- code ---
@@ -63,6 +67,7 @@ while True:
 --- /task ---
 
 --- task ---
+
 Make the LED blink. 
 
 To experiment with the length of time that the LED is on and off, change the numbers in the brackets. The first number sets how long the LED is on, and the second number sets how long it is off.
@@ -92,7 +97,9 @@ while True:
 --- /task ---
 
 --- task ---
+
 **Test:** Does the LED blink when you push the button?
+
 --- /task ---
 
 

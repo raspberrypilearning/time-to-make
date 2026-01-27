@@ -9,6 +9,7 @@ If you need help getting ready to program your Raspberry Pi Pico, check out our 
 --- /task ---
 
 --- task ---
+
 Add the `picozero` library and import `Stepper`.
 
 --- code ---
@@ -26,6 +27,7 @@ from picozero import Stepper
 
 
 --- task ---
+
 Define the pins for the stepper motor.
 
 --- code ---
@@ -46,6 +48,7 @@ stepper = Stepper((18, 19, 20, 21))
 
 
 --- task ---
+
 To test the motor, move it 90 degrees clockwise. 'Clockwise' is shortened to **'cw'**.
 
 --- code ---
@@ -69,6 +72,8 @@ stepper.turn(90, 'cw')
 
 
 --- task ---
+
 **Test:** Run the code and watch the motor turn.
+
 --- /task ---
 

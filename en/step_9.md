@@ -4,6 +4,7 @@ Edit your code to randomly select one of the four options each time you press th
 
 
 --- task ---
+
 Add the `random` library and import the `choice` function.
 
 --- code ---
@@ -32,6 +33,7 @@ while True:
 --- /task ---
 
 --- task ---
+
 To get to one of the four text options on your selection wheel, the wheel has to turn to either 90 degrees, 180 degrees, 270 degrees, or 360 degrees.
 
 Add an `angle` variable. Use `choice` to randomly choose between the four angles.
@@ -63,6 +65,7 @@ while True:
 --- /task ---
 
 --- task ---
+
 In `stepper.turn()`, replace `90` (degrees) with `angle`.
 
 --- code ---
@@ -80,6 +83,7 @@ line_highlights: 14
 
 
 --- task ---
+
 There are two directions the wheel could turn: clockwise and counterclockwise (anticlockwise).
 
 Add a `direction` variable. Use `choice` to randomly choose between the two directions. 'Counterclockwise' is shortened to **'ccw'**.
@@ -112,6 +116,7 @@ while True:
 --- /task ---
 
 --- task ---
+
 In `stepper.turn()`, replace `'cw'` with `direction`.
 
 --- code ---
@@ -128,7 +133,9 @@ line_highlights: 15
 --- /task ---
 
 --- task ---
+
 **Test:** Press the button and watch the wheel randomly turn a different angle or direction while the LED blinks.
+
 --- /task ---
 
 
