@@ -1,14 +1,17 @@
 ## Add a button
 
 --- task ---
+
 Add a button to the breadboard. 
 
 Connect one side of the button to **GND**. Connect the other side to **GP16**.
 
 ![The button sits across the gap in the middle of the breadboard, and wires connect the button to the Raspberry Pi Pico in the breadboard as described.](images/button-full.png){:width="500px"}
+
 --- /task ---
 
 --- task ---
+
 Import `Button` from the `picozero` library.
 
 --- code ---
@@ -32,6 +35,7 @@ stepper.turn(90, 'cw')
 
 
 --- task ---
+
 Define the button pin.
 
 --- code ---
@@ -56,6 +60,7 @@ stepper.turn(90, 'cw')
 
 
 --- task ---
+
 Add code to turn the motor if the button is pressed. 
 
 **Tip:** Look at how the code is indented now. This is important in Python.
@@ -84,5 +89,7 @@ while True:
 
 
 --- task ---
+
 **Test:** Press the button. Does the motor turn? 
+
 --- /task ---
