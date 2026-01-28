@@ -1,14 +1,14 @@
 ## What you will make
 
-Make a spinning selection wheel with cardboard and a stepper motor. The selection wheel will reveal one of four options each time it turns.
+Time to make is a spinning wheel made with cardboard and a stepper motor. It chooses one of four options each time it turns.
 
-You can design your own selection wheel to help you in lots of different ways! For example, yours could:
+You can design your own version. Yours could:
 - Ask quiz questions
 - Give yes or no answers
 - Generate story ideas
 - Decide chores like who cooks
 
-See the selection wheel in action. Sound on 🔊
+See it in action. Sound on 🔊
 <html>
 <div style="position: relative; overflow: hidden; padding-top: 56.25%;">
 <iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/RpSMp2ecpjI?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
@@ -19,7 +19,7 @@ See the selection wheel in action. Sound on 🔊
 ### You will need
 
 **For the circuit:**
-- Computer with the [Thonny](https://thonny.org/) IDE installed
+- Computer with [Thonny](https://thonny.org/) installed
 - Raspberry Pi Pico and micro USB cable
 - Breadboard
 - Pin-to-pin and socket-to-pin wires

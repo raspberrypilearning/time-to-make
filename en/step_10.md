@@ -1,7 +1,7 @@
 ## More challenges
 --- task ---
 
-Can you make the wheel do a little 'dance' before it stops on an option?
+Can you make the wheel do a little 'dance' before it stops?
 
 Experiment with `stepper.turn()` to move the wheel. 
 
