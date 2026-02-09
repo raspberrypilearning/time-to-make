@@ -2,10 +2,12 @@
 
 --- task ---
 
-Insert your Raspberry Pi Pico into the breadboard.
+Start by inserting your Raspberry Pi Pico into the breadboard.
 ![The Raspberry Pi Pico on a breadboard, positioned across the gap in the middle.](images/pico.png){:width="300px"}
 
 --- /task ---
+
+**Tip:** New to the Raspberry Pi Pico? Read ['Meet Raspberry Pi Pico'](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/1){:target="_blank"} for help with setup pin numbers.
 
 --- task ---
 
